@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1493 896" height="100%" width="100%">
+<rect r="8" y="2" x="2" height="896" width="1493" style="fill:#efefef" />
+<rect r="8" y="10" x="10" height="90" width="1476" style="fill:#c6cbd4" />
+<rect r="8" y="108" x="10" height="82" width="1476" style="fill:#a8afbd" />
+<rect r="8" y="200" x="1000" height="116" width="486" style="fill:#a8afbd" />
+<rect r="8" y="652" x="10" height="116" width="470" style="fill:#e4c481" />
+<rect style="fill:#e4c481" width="461" height="115" x="510" y="652" r="8" />
+<rect r="8" y="652" x="1000" height="115" width="486" style="fill:#e4c481" />
+<rect style="fill:#e4c481" width="486" height="115.6" x="1000" y="340" r="8" />
+<rect r="8" y="200" x="10" height="440" width="963" style="fill:#e7a398" />
+<rect r="8" y="299" x="34.5" height="320.1" width="917" style="fill:#daeaf7" />
+<rect r="8" y="414" x="52" height="188" width="421" style="fill:#e5d1cc" />
+<rect width="421" height="189" x="505" y="412.5" r="8" fill="#DEC6C1" />
+<rect x="10" y="783.8" style="fill:#ccc2d0" width="1476" height="107" r="8" />
+
+<g font-size="62" opacity="0.6" fill="#333">
+    <text text-anchor="middle" y="71" x="750">header</text>
+    <text text-anchor="middle" x="750" y="168">nav</text>
+    <text text-anchor="middle" x="750" y="863">footer</text>
+    <text text-anchor="middle" y="383" x="485">article</text>
+    <text x="160" y="530">section</text>
+    <text y="530" x="620" >section</text>
+    <text text-anchor="middle" x="485" y="270">main</text>
+    <text text-anchor="middle" y="263" x="1240">nav</text>
+    <text text-anchor="middle" y="405" x="1240">aside</text>
+    <text text-anchor="middle" x="1240" y="736">aside</text>
+    <text y="736" x="630">aside</text>
+    <text x="120" y="736">aside</text>
+</g>
+</svg>

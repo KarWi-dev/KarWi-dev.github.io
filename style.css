@@ -1,0 +1,28 @@
+body{
+	background: black;
+	color: white;
+}
+
+h1{
+	font-size: 30pt;
+	font-family: helvetica, sans-serif;
+	color: red;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h2{
+	font-size: 20pt;
+	font-family: Arial Black, sans-serif;
+	color: red;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h3{
+	font-size: 13pt;
+	font-family: Arial Black, sans-serif;
+	color: red;
+	text-decoration: underline;
+}
+
