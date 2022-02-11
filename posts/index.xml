@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on beep-boop</title>
+    <link>http://example.org/posts/</link>
+    <description>Recent content in Posts on beep-boop</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 11 Feb 2022 18:44:30 +0100</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beep Boop</title>
+      <link>http://example.org/posts/beep-boop/</link>
+      <pubDate>Fri, 11 Feb 2022 18:44:30 +0100</pubDate>
+      
+      <guid>http://example.org/posts/beep-boop/</guid>
+      <description>beep-boop!! </description>
+    </item>
+    
+  </channel>
+</rss>
