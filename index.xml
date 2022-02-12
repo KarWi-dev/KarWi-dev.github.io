@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>beep-boop</title>
+    <title>karwi-dev.github.io</title>
     <link>https://karwi-dev.github.io/</link>
-    <description>Recent content on beep-boop</description>
+    <description>Recent content on karwi-dev.github.io</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 11 Feb 2022 18:44:30 +0100</lastBuildDate><atom:link href="https://karwi-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
