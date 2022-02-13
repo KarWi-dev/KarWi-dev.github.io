@@ -677,13 +677,13 @@ body{background:#300a24}body #terminal{color:#fff}body #user{color:#4e9a06}body 
         return parsed;
     }
 
-    const ps1Delay = parseDelay("0"),
+    const ps1Delay = parseDelay("1"),
         stdoutDelay = parseDelay("0"),
-        commandDelay = parseDelay("45");
+        commandDelay = parseDelay("40");
     const typeeffetct = async () => {
         await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003eKarWi-dev@website\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_01", ps1Delay); await typewriter("\u003cspan id=\u0027terminal\u0027\u003ecd home\u003c\/span\u003e", "cd", commandDelay);
         await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003eKarWi-dev@website\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/home\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_02", ps1Delay); await typewriter("\u003cspan id=terminal\u003esudo py welcome.py\u003c\/span\u003e", "cat", commandDelay);
-        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cbr\u003e._...__..........._...._._..........._............\u003cbr\u003e|.|.\/.\/..........|.|..|.(_).........|.|...........\u003cbr\u003e|.|\/.\/..__._._.__|.|..|.|_.______.__|.|._____...__\u003cbr\u003e|....\\.\/._`.|.\u0027__|.|\/\\|.|.|______\/._`.|\/._.\\.\\.\/.\/\u003cbr\u003e|.|\\..\\.(_|.|.|..\\..\/\\..\/.|.....|.(_|.|..__\/\\.V.\/.\u003cbr\u003e\\_|.\\_\/\\__,_|_|...\\\/..\\\/|_|......\\__,_|\\___|.\\_\/..\u003cbr\u003e\u003cbr\u003e  \u002b----------------------------------------\u002b\u003cbr\u003e  | Hi I am Karsten..\u003cbr\u003e  | I make computers go beep-boop!\u003cbr\u003e  | Nice to meet you!\u003cbr\u003e  \u002b----------------------------------------\u002b\u003cbr\u003e  \n  \u003c\/span\u003e", "std_out_01", stdoutDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cbr\u003e._...__..........._...._._..........._............\u003cbr\u003e|.|.\/.\/..........|.|..|.(_).........|.|...........\u003cbr\u003e|.|\/.\/..__._._.__|.|..|.|_...__...__|.|._____...__\u003cbr\u003e|....\\.\/._`.|.\u0027__|.|\/\\|.|.|.|__|.\/._`.|\/._.\\.\\.\/.\/\u003cbr\u003e|.|\\..\\.(_|.|.|..\\..\/\\..\/.|.....|.(_|.|..__\/\\.V.\/.\u003cbr\u003e\\_|.\\_\/\\__,_|_|...\\\/..\\\/|_|......\\__,_|\\___|.\\_\/..\u003cbr\u003e\u003cbr\u003e\u003cbr\u003eHi I am Karsten.\u003cbr\u003eI make computers go beep-boop!\u003cbr\u003eNice to meet you!\u003cbr\u003ePlease check out my GitHub.\u003cbr\u003e\n  \u003c\/span\u003e", "std_out_01", stdoutDelay);
         await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003eKarWi-dev@website\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/home\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_03", ps1Delay); await typewriter("\u003cspan id=\u0027terminal\u0027\u003elinks .\/info\/\u003c\/span\u003e", "tree", commandDelay);
         await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cstrong\u003e\u003cspan id=\u0027dir\u0027\u003e.\/info\/\u003c\/span\u003e\u003c\/strong\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/github.com\/KarWi-dev\/\u0027\u003emy github\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/gohugo.io\/\u0027\u003epowered by Hugo\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e└── \u003ca href=\u0027https:\/\/github.com\/Yukuro\/hugo-theme-shell\u0027\u003eshell theme by Yukuro\u003c\/a\u003e\u003c\/span\u003e", "std_out_02", stdoutDelay);
         await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003eKarWi-dev@website\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/home\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_04", ps1Delay);
@@ -694,7 +694,7 @@ body{background:#300a24}body #terminal{color:#fff}body #user{color:#4e9a06}body 
 </script>
 
 
-        </div>       
-         
+        </div>
+    
     </body>
 </html>
