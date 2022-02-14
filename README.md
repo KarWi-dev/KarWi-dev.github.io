@@ -1,2 +1,1 @@
-# snippets
-Here are some code snippets for me to look up on the go!
+# My homepage and some code snippets for me otg
